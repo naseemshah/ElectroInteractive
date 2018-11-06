@@ -5,6 +5,6 @@ Electro Interactive is a project which presents a series of Interactive Simulati
 Enjoy!
 
 <div  align="center">
-  <h3> Basic Circuit </h3>
+  <h3 href="http://soecse.cf/Electrical" > Basic Circuit </h3>
   <img href="http://soecse.cf/Electrical" width="80%" src="Electrical/Demo.png"> </img>
 </div>
