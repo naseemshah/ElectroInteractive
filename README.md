@@ -6,5 +6,5 @@ Enjoy!
 
 <div align="center">
   <h3> Basic Circuit </h3>
-  <img src="Electrical/Case4.gif"
+  <img width="80%" src="Electrical/Demo.png"> </img>
 </div>
