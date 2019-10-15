@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html>
+<head>
+	<title>Electronative</title>
+	<link rel="stylesheet" href="style.css">
+</head>
 
 <body>
 
@@ -38,7 +42,7 @@
 	function ClickS2Off(){ S2=0; document.getElementById("status2").innerHTML = "S2:off"; update();}
 	function update()
 	{
-	if ((S1==1)&&(S2==1)) {c=1;}
+	if ((S1==1)&&(S2==1)) {c=1; alert("Closed Curcuit")} 
 	else if ((S1==1)&&(S2==0)) {c=2;}
 	else if ((S1==0)&&(S2==1)) {c=3;}
 	else {c=4;}
@@ -63,50 +67,7 @@
 
 </script>
 
-<style>
-.buttonon {
-    background-color: #4CAF50;
-    border: black;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
 
-.buttonoff {
-    background-color: red;
-    border: black;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-
-
-h1 {
-	color: white;
-
-}
-
-table  {
-background-color: black;
-padding: 5px;
-align: center;
-width: 80%;
-height: 25%;
-
-}
-
-
-</style>
 
 </body>
 </html>
